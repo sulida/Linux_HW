@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(240, 240, 246);
+}
+
+h1 {
+    margin: 0 25px;
+}
+
+div {
+    text-align: center;
+    color:rgb(240, 240, 246) ;
+    border: 1 px solid #34495E;
+    margin: 21px;
+    background-color: #34495E;
+    border-radius: 20px; 
+    padding: 21px;
+}
