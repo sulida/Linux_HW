@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for name in {1..10}
+do
+date=$(date +'%H:%M:&S')
+touch /opt/280223_m/lidasuchkova/$name$date.txt
+done
+
+
+*/15 * * * * /opt/280223_m/lidasuchkova/tasklida.sh >> /opt/280223_m/lidasuchkova/output2.txt
